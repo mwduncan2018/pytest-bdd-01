@@ -1,0 +1,1250 @@
+[
+    {
+        "line": 2,
+        "elements": [
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 12,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;2",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 100000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "100000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 2812",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "2812",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 13,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;3",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 150000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "150000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 4083",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "4083",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 14,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;4",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 200000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "200000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 5341",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "5341",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 15,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;5",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 250000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "250000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 6478",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "6478",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 16,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;6",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 300000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "300000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 7597",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "7597",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 152518100,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 17,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;7",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 350000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "350000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 8716",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "8716",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 18,
+                "name": "Maryland SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;maryland-smartasset-paycheck-calculator--semi-monthly;;8",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 6,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Maryland",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:20)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 7,
+                        "name": "I have a salary of 400000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "400000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 8,
+                        "name": "verify the semi-monthly take home pay is 9835",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "9835",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 28,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;2",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 100000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "100000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 3133",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "3133",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 151518200,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 29,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;3",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 150000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "150000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 4588",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "4588",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.232Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 150516700,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 30,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;4",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "duration": 999500,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 200000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "200000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 6032",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "6032",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.423Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 17999000,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 31,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;5",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 250000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "250000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 7351",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "7351",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.423Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 17999000,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 32,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;6",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 300000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "300000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 8656",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "8656",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.422Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 17999000,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 33,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;7",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 350000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "350000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 9961",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "9961",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            },
+            {
+                "start_timestamp": "2022-12-17T16:18:34.422Z",
+                "before": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:843)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:41)\r\n\tat org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:165)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:363)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:176)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:149)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getLocalDriver(WebDriverFactory.java:58)\r\n\tat com.bddunitframework.webdriverfactory.WebDriverFactory.getDriver(WebDriverFactory.java:33)\r\n\tat com.bddunitframework.hooks.Hooks.beforeScenario(Hooks.java:24)\r\n",
+                            "duration": 18000800,
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.beforeScenario()"
+                        }
+                    }
+                ],
+                "line": 34,
+                "name": "Florida SmartAsset paycheck calculator, semi-monthly",
+                "description": "",
+                "id": "demo-feature;florida-smartasset-paycheck-calculator--semi-monthly;;8",
+                "after": [
+                    {
+                        "result": {
+                            "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because the return value of \"java.util.HashMap.get(Object)\" is null\r\n\tat com.bddunitframework.hooks.Hooks.afterScenario(Hooks.java:30)\r\n",
+                            "status": "failed"
+                        },
+                        "match": {
+                            "location": "com.bddunitframework.hooks.Hooks.afterScenario()"
+                        }
+                    }
+                ],
+                "type": "scenario",
+                "keyword": "Scenario Outline",
+                "steps": [
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 22,
+                        "name": "I navigate to the SmartAsset paycheck calculator for Florida",
+                        "match": {
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:28)"
+                        },
+                        "keyword": "Given "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 23,
+                        "name": "I have a salary of 400000",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "400000",
+                                    "offset": 19
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:36)"
+                        },
+                        "keyword": "When "
+                    },
+                    {
+                        "result": {
+                            "status": "skipped"
+                        },
+                        "line": 24,
+                        "name": "verify the semi-monthly take home pay is 11267",
+                        "match": {
+                            "arguments": [
+                                {
+                                    "val": "11267",
+                                    "offset": 41
+                                }
+                            ],
+                            "location": "com.bddunitframework.steps.SmartAssetSteps.<init>(SmartAssetSteps.java:43)"
+                        },
+                        "keyword": "Then "
+                    }
+                ],
+                "tags": [
+                    {
+                        "name": "@Browser"
+                    },
+                    {
+                        "name": "@GridDemo"
+                    }
+                ]
+            }
+        ],
+        "name": "Demo feature",
+        "description": "",
+        "id": "demo-feature",
+        "keyword": "Feature",
+        "uri": "file:src/test/resources/features/Sample.feature",
+        "tags": [
+            {
+                "name": "@Browser",
+                "type": "Tag",
+                "location": {
+                    "line": 1,
+                    "column": 1
+                }
+            }
+        ]
+    }
+]
