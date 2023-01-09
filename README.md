@@ -24,3 +24,10 @@ def context():
 def _(context):
     pass
 ```
+
+```
+# Pass variable from step to step definition
+@when(parsers.parse('the number is less than {some_number:d}))
+def _(context, some_number):
+    pass
+```
