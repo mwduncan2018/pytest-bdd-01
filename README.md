@@ -1,16 +1,21 @@
 
-
 ```
-# Print
-pytest .\tests\steps\test* -s
-
 # Parallel (pytest-xdist)
 pytest .\tests\steps\test* -n 10
 ```
 
 ```
-# Scenario Context
+# Print
+pytest .\tests\steps\test* -s
+```
 
+```
+# Link features
+scenarios('../features/name_of.feature')
+```
+
+```
+# Scenario Context
 @pytest.fixture
 def context():
     return { }
