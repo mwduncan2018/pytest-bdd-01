@@ -45,11 +45,11 @@ scenarios('../features/name_of.feature')
 ```
 # Scenario Context
 @pytest.fixture
-def context():
+def scenario_context():
     return { }
 
 @given('scenario context is used')
-def _(context):
+def _(scenario_context):
     pass
 ```
 
