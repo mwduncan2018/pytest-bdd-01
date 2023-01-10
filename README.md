@@ -1,3 +1,7 @@
+```
+# Cucumber Report
+pytest .\tests\steps\test_contact.py --cucumberjson=./target/cucumber.json
+```
 
 ```
 # conftest.py
