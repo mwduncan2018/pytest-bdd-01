@@ -1,3 +1,4 @@
+@zed
 Feature: Zed
 
     Scenario: Add random numbers
