@@ -1,14 +1,9 @@
 from pytest_bdd import scenarios, given, when, then, parsers
 from playwright.sync_api import Page, expect
 import re
-import pytest
-import time
 
 scenarios('../features/contact.feature')
 
-@pytest.fixture 
-def scenario_context():
-    return { }
 
 @when('the Contact page is viewed')
 def _(scenario_context: dict, page: Page):

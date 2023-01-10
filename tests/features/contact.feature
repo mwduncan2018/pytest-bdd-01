@@ -23,11 +23,5 @@ Feature: Contact
 		| skill                       |
 		| C# SpecFlow                 |
 		| Java Cucumber               |
-		| Selenium WebDriver          |
-		| Selenium Grid               |
-		| Behavior-Driven Development |
-		| Appium                      |
 		| Docker                      |
 		| Docker Compose              |
-		| Jenkins                     |
-		| Amazon Web Services         |
