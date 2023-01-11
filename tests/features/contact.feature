@@ -1,6 +1,9 @@
 @contact
 Feature: Contact
 
+	Background:
+		Given I use a shared step
+
 	Scenario: Duncan safe product
 		When the Contact page is viewed
 		Then the following text should display in the footer
