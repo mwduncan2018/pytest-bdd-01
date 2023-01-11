@@ -1,3 +1,4 @@
+from pytest_bdd import given, when, then, parsers
 import pytest
 import random
 
@@ -7,3 +8,10 @@ def scenario_context(): # target_fixture="context"
     print('....before ' + r)
     yield { }
     print('....after ' + r)
+
+
+# Shared Steps
+
+@given('I use a shared step')
+def _(scenario_context):
+    print('........SHARED STEP!')
